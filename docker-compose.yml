@@ -7,7 +7,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      SLACK_SUBDOMAIN: chicago-tech
+      SLACK_SUBDOMAIN: indytech
       SLACK_COC: https://goo.gl/PWhc3X
       PORT: 3000
     env_file:
